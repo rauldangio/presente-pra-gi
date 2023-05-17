@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title, .as{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(211, 50, 50);
+    color: white;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.as
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 2rem;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.caixa{
+    margin-top: 15rem;
+}
